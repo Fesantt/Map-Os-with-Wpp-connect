@@ -177,21 +177,21 @@ class Whatsapp extends MY_Controller
         }
     }
 
-    //test test test test
-    public function checkPhone($identifier, $phoneCheck) {
+    // //test test test test
+    // public function checkPhone($identifier, $phoneCheck) {
         
-        $identifier = $identifier;
-        $phone = $phoneCheck;
+    //     $identifier = $identifier;
+    //     $phone = $phoneCheck;
     
-        $existingSession = $this->Whatsapp_model->getSessionByName($identifier);
+    //     $existingSession = $this->Whatsapp_model->getSessionByName($identifier);
     
-        if ($existingSession) {
-            $response = $this->whatsappconect->checkNumber($existingSession['name'], $existingSession['token'], $phone);
+    //     if ($existingSession) {
+    //         $response = $this->whatsappconect->checkNumber($existingSession['name'], $existingSession['token'], $phone);
     
-            echo json_encode($response);
-        } else {
-            echo json_encode(['success' => false, 'message' => "Nenhuma sessão encontrada para o identificador $identifier."]);
-        }
-    }
+    //         echo json_encode($response);
+    //     } else {
+    //         echo json_encode(['success' => false, 'message' => "Nenhuma sessão encontrada para o identificador $identifier."]);
+    //     }
+    // }
     
 }

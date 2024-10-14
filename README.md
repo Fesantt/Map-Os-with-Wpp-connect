@@ -11,7 +11,7 @@ CREATE TABLE whatsapp (
     token VARCHAR(255) NOT NULL,
     quote TEXT,
     isConnected BOOLEAN DEFAULT FALSE,
-    isActive BOOLEAN DEFAULT TRUE,
+    isActive BOOLEAN DEFAULT FALSE,
     qrCodeBase64 TEXT
 );
 

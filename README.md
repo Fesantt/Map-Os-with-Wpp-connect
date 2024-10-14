@@ -2,6 +2,16 @@ MAAP-OS 4.47.0
 
 Integração com WppConnect
 
+
+
+.env
+
+```sh
+WHATSAPP_ENDPOINT=http://localhost:9090/api     # ex: url do seu wpp connect
+WHATSAPP_SECRET_KEY=123456                      # secretKey do seu wpp connect
+
+```
+
 Banco de dados
 
 ```sh

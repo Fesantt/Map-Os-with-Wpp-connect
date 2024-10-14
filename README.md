@@ -2,6 +2,23 @@ MAAP-OS 4.47.0
 
 Integração com WppConnect
 
+Banco de dados
+
+```sh
+CREATE TABLE whatsapp (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    token VARCHAR(255) NOT NULL,
+    quote TEXT,
+    isConnected BOOLEAN DEFAULT FALSE,
+    isActive BOOLEAN DEFAULT TRUE,
+    qrCodeBase64 TEXT
+);
+
+```
+
+
+
 como utilizar
 
 ```sh

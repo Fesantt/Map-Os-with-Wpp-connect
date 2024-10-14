@@ -181,7 +181,7 @@ class Whatsapp extends MY_Controller
     public function checkPhone($identifier, $phoneCheck) {
         
         $identifier = $identifier;
-        $phone = $$phoneCheck;
+        $phone = $phoneCheck;
     
         $existingSession = $this->Whatsapp_model->getSessionByName($identifier);
     

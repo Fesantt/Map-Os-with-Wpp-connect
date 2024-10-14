@@ -32,3 +32,8 @@ Verificar se numero tem whatsapp
 
 $this->whatsappconect->checkNumber($identifier, $token, $phone)
 ```
+Views
+```sh
+https://seusite.com/index.php/whatsapp
+
+```
